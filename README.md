@@ -27,7 +27,7 @@ make user be able to:
 
 ### Screenshot
 
-![](.//screenshot/Screenshot 2022-02-15 at 14-18-47 Abdoallah-Badr Clipboard landing page.pngscreenshot.jpg)
+![](./screenshot/Screenshot 2022-02-15 at 14-18-47 Abdoallah-Badr Clipboard landing page.pngscreenshot.jpg)
 
 ### Links
 
