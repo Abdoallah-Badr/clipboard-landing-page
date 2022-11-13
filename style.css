@@ -1,0 +1,427 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-position:top center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0em;
+    padding: 0em;
+    flex-wrap: wrap;
+    min-width: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+section {
+    margin: 0em;
+    padding: 0em;
+}
+.Definition {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    padding-top: 15%;
+    text-align: center;
+    flex: 0 0 100%;
+}
+.Definition img {
+    display: block;
+    max-width: 15%; 
+    margin: 0em 43% 2% 45%; 
+}
+
+.Links1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+}
+.Links1 a {
+    margin: 0px 2% ;
+    padding: 0.7em 1.5em;
+    border-radius: 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(97,116,255,255);
+    text-decoration: none;
+    transition:0.7s ease;
+}
+
+.Links1 a:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+    box-shadow: 0px 5px 20px 5px rgb(184, 221, 255);
+}
+.Links1 a:first-child {
+    background-color: #26bba5
+}
+.Links1 a:first-child:hover {
+    box-shadow: 0px 5px 20px 5px rgb(200, 252, 213);
+}
+.Definition h1 {
+    font-size: 2em;
+    margin: 0 5%;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.Definition p {
+    color: hsl(201, 11%, 66%);
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: block;
+    max-width: 100%;
+}
+.Keeptrack {
+    text-align: center ;
+    max-width: 100% ;
+    flex-direction: column;
+    margin: 10% 0 0 0 ;
+}
+.Keeptrack h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+    color: hsl(210, 10%, 33%);
+}
+#toptext {  
+    text-align: center;
+    margin: 0em 20% ;
+    color: hsl(201, 11%, 66%);
+}
+.keepcontainer {
+    margin-top: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.keeptext {
+    display: flex;
+    align-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 55%;
+    line-height: 1.8em;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    font-stretch: 130% ;
+    margin: 0em 0em 4% 4%;
+    flex: 1 1 100%;
+}
+.keeptext div {
+    padding: 2% ;
+    max-width: 55%;
+}
+.keeptext h3 {
+    margin-bottom: 0.2em;
+    font-size: 1.2em    ;
+}
+.keepcontainer img {
+    /* width: 47em; */
+    display: block;
+    margin-left: -10%;
+    max-width: 55%;
+    flex: 1 1 100%;
+}
+.Anywhere {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 60%;
+    text-align: center;
+}
+.Anywhere h2 {
+    margin-bottom: 3%;
+}
+.Anywhere div {
+    max-width: 100% ;
+    line-height: 1.8em ;
+    margin: 0px 12%;
+    color: hsl(210, 10%, 33%);
+}
+.Anywhere img {
+    max-width: 100%;
+    display: block;
+    margin-top: 12%;
+}
+.Workflow {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    width: 100%;
+    color: hsl(210, 10%, 33%);
+    font-size: 0.7em;
+    font-weight: 200;
+    color: hsl(201, 11%, 66%);
+    margin: 2% 3% 7% 3%;
+
+}
+.Workflow h2 {
+    margin-bottom: 1.5%;
+    margin-top: 3%;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.subworkflow {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 4% 10%;
+
+}
+.subworkflow div {
+    flex: 1 1 20%;
+    margin: 0.5% 2%;
+}
+
+.subworkflow h3 {
+    margin-bottom: 4%;
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.subworkflow p {
+    max-width: 100%;
+    margin: 1% 6% 0em 6%;
+    display: block;
+}
+.icon {
+    color: rgb(207, 207, 207);
+    font-size: 2.5em;
+    margin-bottom: 1%;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+}
+.Icon-container {   
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 4% 10%;
+}
+.Icon-container img {
+    width: 10%;
+}
+.Download {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 30em ;
+    font-size: 0.7em;
+    font-weight: 200;
+    color: hsl(201, 11%, 66%);
+    margin: 0 30%;
+    line-height: 1.8em ;
+
+}
+.Download h2 {
+    font-size: 2.5em;
+    line-height: 1.8em;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0.7em;
+}
+.Download :first-child {
+    padding: auto;
+}
+.Links2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top:5em;
+}
+.Links2 a {
+    margin: 0px 2% ;
+    padding: 1em 2em;
+    border-radius: 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(97,116,255,255);
+    text-decoration: none;
+    transition:0.7s ease;
+    font-size: 1.1em;
+}
+.Links2 a:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+    box-shadow: 0px 5px 20px 5px rgb(184, 221, 255);
+}
+.Links2 a:first-child {
+    background-color: #26bba5
+}
+.Links2 a:first-child:hover {
+    box-shadow: 0px 5px 20px 5px rgb(200, 252, 213);
+}
+footer {
+    min-width: 100%;
+    min-height: 5%;
+    margin-top: 5%;
+    background-color: rgb(238, 238, 238);
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-content:space-between;
+    color: hsl(201, 11%, 66%);
+}
+footer > img {
+    max-width: 3em;
+    max-height:3em;
+    display: block;
+    margin-top: 2.5em;
+}
+.social-icons {
+    margin-top: 3em;
+    margin-left: 4em;
+}
+.social-icons a {
+    padding: 0.3em;
+    margin: 0 0.5em;
+    transition: 0.7s ease;
+}
+.social-icons a:hover {
+    opacity: 70%;
+}
+.detials {
+    margin-top: 1.5em;
+    max-width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    text-align: left;
+}
+.detials ul {
+    list-style: none;
+}
+.detials a {
+    display: block;
+    flex: 1 1 50%;
+    text-decoration: none;
+    margin: 1.5em 3em;
+    font-size: 0.75em;
+    padding: 0.2em;
+}
+@media screen and (max-width: 40em) {        
+    .detials,footer,.Icon-container,.subworkflow ,.Keeptrack,.Links1,.Links2,.keepcontainer {
+        flex-direction: column ;
+    }
+    .Links1 {
+        align-content: space-between;
+    }
+    .Links1 a {
+        margin: 2% 0em;
+    }
+
+    .Links2 a {
+        margin: 2% 0em;
+        display: block;
+    }
+    
+    .Links2 {
+        margin-top: 2em;
+        align-content: space-between;
+        align-items: center;
+    }
+    .keepcontainer {
+        justify-content: center;
+        align-content: center;
+        align-items: center ;
+    }
+    .keepcontainer img {
+        margin:0 10%;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .keeptext {
+        max-width: 70%;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .keeptext div {
+        padding: 3% 0;
+    }
+    .subworkflow h3 {
+        margin-top: 3%;
+    }
+    .subworkflow div {
+        margin-bottom: 6%;
+    }
+    .Icon-container img {
+        min-width: 55%;
+        margin: 10%;
+    }
+    .Download {
+        margin: 2em 15%;
+    }
+    .keeptext {
+        margin-top: 8%;
+    }
+    .Definition img {
+        max-width: 50%; 
+        margin: 0em 43% 2% 45%; 
+    }
+    footer {
+        margin-top: 5%;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .detials {
+        display: flex;
+    }
+    .detials ul {
+        flex-direction: column;
+    }
+    .detials li { 
+        margin: 0;
+        text-align: center;
+    }
+    .social-icons {
+        margin: 7% 0;
+
+    }
+    .detials ul {
+        list-style: none;
+        display: flex;
+        align-items: space-between;
+        justify-content: center;
+    }
+@media screen and (min-width: 41em) {
+    .keepcontainer {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 0.8fr 0.5em 1fr;
+        }
+}}
