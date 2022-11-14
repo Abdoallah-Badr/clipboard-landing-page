@@ -1,6 +1,7 @@
 # Clipboard landing page solution
 
-This is my first design by HTML & CSS
+This is my first design by HTML & CSS 
+
 This is a solution to the [Clipboard landing page challenge on Frontend Mentor]
 
 ## Table of contents
@@ -27,7 +28,7 @@ make user be able to:
 
 ### Screenshot
 
-![](./screenshot/Screenshot 2022-02-15 at 14-18-47 Abdoallah-Badr Clipboard landing page.pngscreenshot.jpg)
+![preview image](/screenshot/img.png "previewImg")
 
 ### Links
 
